@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <Router>
-        <>
+        <div>
           <section className="qs">
             <h2><Link to="/details">How do you solve 1 + 1</Link></h2>
             <aside>
@@ -14,7 +14,16 @@ class Home extends Component {
               <h2>4 answers</h2>
             </aside>
           </section>
-        </>
+          <section>
+            <form>
+              <aside>
+                <input className="q-title" placeholder="Title" />
+                <button className="ask">Submit</button>
+              </aside>
+              <textarea className="qa-form" placeholder="Ask away..." />
+            </form>
+          </section>
+        </div>
       </Router>
     );
   }

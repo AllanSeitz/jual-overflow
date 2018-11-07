@@ -5,7 +5,7 @@ class Details extends Component {
 
   render() {
     return (
-      <>
+      <div>
         <section>
           <h2>title here</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, distinctio ut commodi ex odit magnam accusamus quis dignissimos maiores vero provident fuga debitis minima laudantium rerum voluptate vel quo beatae.</p>
@@ -13,7 +13,7 @@ class Details extends Component {
         <section>
           <p>answer</p>
         </section>
-      </>
+      </div>
     );
   }
 }
