@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="main-div">
           <section className="qs">
             <h2><Link to="/details">How do you solve 1 + 1</Link></h2>
             <aside>
@@ -15,7 +15,7 @@ class Home extends Component {
             </aside>
           </section>
           <section>
-            <form>
+            <form className="ask-form">
               <aside>
                 <input className="q-title" placeholder="Title" />
                 <button className="ask">Submit</button>

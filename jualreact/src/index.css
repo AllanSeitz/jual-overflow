@@ -33,10 +33,29 @@ button {
 main {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
+  padding: 0 1rem; 
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.q-title {
+  flex: 3;
+}
+.ask {
+  flex:1;
+  max-width: 125px;
+}
+.ask-form {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
 }
 section {
   max-width: 800px;
+  width: 100%;
   margin: 1rem;
   text-align: center;
   border: .1rem lightgray solid;
@@ -48,7 +67,7 @@ section {
 aside {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 
 }
 a {
@@ -60,27 +79,27 @@ a {
 
 }
 .qa-form {
-  width: 90%;
+  /* width: 100%; */
   height: 20vh;
-  margin-top: 1rem;
-
+  margin-top: .5rem;
+  /* flex: 1; */
 }
 
 @media (min-width: 800px) {
   header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-  }
-  main{
-    width: 100vw;
-  }
-  section {
-    width: 800px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+
   }
   h1, h2 {
     margin: 0;
     padding: 0;
+  }
+  .qs {
+    flex-direction: row;
   }
 }
 @keyframes flash {
