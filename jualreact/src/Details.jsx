@@ -13,6 +13,14 @@ class Details extends Component {
         <section>
           <p>answer</p>
         </section>
+        <section>
+          <form className="ask-form">
+            <textarea className="qa-form" placeholder="" />
+            <aside>
+              <button className="ask">Submit</button>
+            </aside>
+          </form>
+        </section>
       </div>
     );
   }

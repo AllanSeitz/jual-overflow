@@ -7,10 +7,10 @@ class Header extends Component {
     return (
       <Router>
         <header>
-          <h1 className="title"><Link exact to="/">jual<i class="fas fa-bolt lightning" />overflow</Link></h1>
+          <h1 className="title"><Link to="/">jual<i className="fas fa-bolt lightning" />overload</Link></h1>
           <form className="search">
             <input placeholder="How Can We Help?" />
-            <button>Search <i class="fas fa-search" /></button>
+            <button>Search <i className="fas fa-search" /></button>
           </form>
         </header>
       </Router>

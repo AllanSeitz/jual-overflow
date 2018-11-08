@@ -12,7 +12,7 @@ header {
   text-transform: uppercase;
   background-image: linear-gradient(to bottom right, rgb(0, 0, 82), rgb(1, 1, 15));
   color: rgba(240, 240, 240, .75);
-  padding: 0 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 input {
   margin-right: .5rem;
@@ -30,11 +30,18 @@ button {
   text-shadow: -1px -1px 1rem rgb(70, 209, 252),  1px 1px 1rem rgb(70, 209, 252),  1px 1px 1rem rgb(70, 209, 252),  -1px -1px 1rem rgb(70, 209, 252);
   animation: flash .5s  linear;
 }
+.title {
+  margin-bottom: .5rem;
+}
 main {
   display: flex;
   flex-direction: column;
   align-content: center;
   padding: 0 1rem; 
+}
+h1, h2 {
+  margin: 0;
+  padding: 0;
 }
 .main-div {
   display: flex;
@@ -94,10 +101,7 @@ a {
     padding: 1rem 1rem 1rem 1rem;
 
   }
-  h1, h2 {
-    margin: 0;
-    padding: 0;
-  }
+
   .qs {
     flex-direction: row;
   }
