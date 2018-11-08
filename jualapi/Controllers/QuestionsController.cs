@@ -17,7 +17,7 @@ namespace jualapi.Controllers
     public IEnumerable<Questions> Get()
     {
       var db = new jualoverflowContext();
-      return db.Questions.OrderBy(o => o.Votes);
+      return db.Questions.OrderBy(o => o.AvgQueVotes);
     }
   }
 }

@@ -5,6 +5,6 @@ namespace jualapi.Models
     public int Id { get; set; }
     public string Title { get; set; }
     public string Content { get; set; }
-    public int Votes { get; set; }
+    public float AvgQueVotes { get; set; }
   }
 }
